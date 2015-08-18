@@ -1,7 +1,7 @@
 # func-annotate
 Add functional anotations from BioGRID, HINT and STRING to association tables in Intercell
 
-== How to use this script ==
+## How to use this script
 An example command is included in the run_annotation.sh script in the repository. This will extract functional interaction information from the BioGRID, HINT and STRING data files and add it to the example association test results table in the test_assocs file.
 
 	#!/bin/bash
@@ -16,7 +16,7 @@ An example command is included in the run_annotation.sh script in the repository
 	--ensp_lookup ./STRING_v10/ensp_to_gene_symbol_lookup.txt \
 	--out_file ${OUT}
 
-== How to update the annotation data ==
+## How to update the annotation data
 Each folder containing annotation data has the neccessary scripts to recreate and update the annotation data files. It is likely that these will break in the future as the annotation projects evolve there files so you may need to modify at some point. Use the included annotation files as a guide for how the data should look.
 
 
